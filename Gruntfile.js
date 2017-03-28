@@ -76,6 +76,7 @@ module.exports = function(grunt) {
 				undef: true,
 				eqnull: true,
 				browser: true,
+				force: true,
 				expr: true,
 				globals: {
 					head: false,
