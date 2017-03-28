@@ -92,7 +92,7 @@ module.exports = function(grunt) {
 		connect: {
 			server: {
 				options: {
-          			port: process.env.VCAP_APP_PORT || 9000, # listen to the port that bluemix will assign you
+          			port: process.env.VCAP_APP_PORT || 9026, 
 					base: base,
 					livereload: true,
  		          	keepalive: true,
