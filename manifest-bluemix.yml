@@ -7,4 +7,4 @@ applications:
   host: sn-demo
   space: DEV
   path: .
-  command: npm start
+  command: npm install && npm start
