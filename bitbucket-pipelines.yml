@@ -1,7 +1,7 @@
 # This is a sample build configuration for Javascript (Node.js).
 # Check our guides at https://confluence.atlassian.com/x/14UWN for more examples.
 # Only use spaces to indent your .yml configuration.
-# -----
+# ----- added cf command line
 # You can specify a custom docker image from Docker Hub as your build environment.
 image: node:4.6.0
 
