@@ -92,7 +92,7 @@ module.exports = function(grunt) {
 		connect: {
 			server: {
 				options: {
-          			port: process.env.VCAP_APP_PORT || 9026, 
+          			port: 9026, 
 					base: base,
 					livereload: true,
  		          	keepalive: true,
