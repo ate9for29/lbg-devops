@@ -1,9 +1,9 @@
 ---
 applications:
-- name: devops-slides
+- name: devops
   memory: 512M
   instances: 1
-  domain: mybluemix.net
+  domain: lbg-toolkits.net
   host: sn-dev-host
   space: DEV
   path: .
