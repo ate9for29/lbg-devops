@@ -6,4 +6,5 @@ applications:
   domain: mybluemix.net
   host: sn-lbg-devops
   space: DEV
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git  
   command: npm start
