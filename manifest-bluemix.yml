@@ -1,10 +1,10 @@
 ---
 applications:
-- name: devops
+- name: lbg-devops
   memory: 512M
   instances: 1
-  domain: lbg-toolkits.net
-  host: sn-dev-host
+  domain: mybluemix.net
+  host: sn-demo
   space: DEV
   path: .
   command: npm start
