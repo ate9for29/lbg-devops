@@ -7,4 +7,4 @@ applications:
   host: sn-lbg-devops
   space: DEV
   path: .
-  command: npm install && npm start
+  command: npm start
