@@ -1,0 +1,16 @@
+---
+applications:
+- name: restapi-mysql
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  host: sn-dev-host
+  space: DEV
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git  
+  path: target/sn-delights-0.1.0.jar
+env:
+  JBP_CONFIG_IBMJDK: "version: 1.8.+"
+  JBP_LOG_LEVEL: ERROR
+  JVM_ARGS: "-Drun.arguments=spring.profiles.active=test -Dserver.port=80 --server.port=80"
+  CF_TRACE: FALSE
+  
