@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/18f.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing  and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+				  <h2>DevOps is a combination of...</h2>
+				  <img src="images/DevOpsModel.png" width="85%" alt="Its culture" style="float:right" />
+				  <blockquote cite="https://en.wikipedia.org/wiki/DevOps" width="85%">
+				    &ldquo;...that enables <a href="https://www.continuousdelivery.com/">continuous delivery</a> of valuable software.&rdquo;
+				  </blockquote>
+				 </section>
+				<section>
+				  <h2>The Goal</h2>
+				  <blockquote cite="https://en.wikipedia.org/wiki/DevOps" width="85%">
+				    &ldquo;In many ways, DevOps is a response to the FIRST of the <a href="http://agilemanifesto.org/principles.html"> 12 principles in the Agile Manifesto </a>- Our highest priority is to satisfy the customer through <b style="color:#FF5050">early</b> and <b style="color:#6EC300">continuous</b> delivery of <b style="color:#FFD400">valuable</b> software.&rdquo;
+				  </blockquote>
+				  Value can be delivered as often and as rapidly as the business requires!
+				</section>				 
+				<section>
+				  <h2>The Approach</h2>
+				  <ul >
+				    <li class="fragment"><b style="color:#FFD400">Define</b>  shared performance metrics tied to business results</li>				    
+				    <li class="fragment"><b style="color:#FF5050">Identify</b>  silos and collaboration barriers between teams</li>
+				    <li class="fragment"><b style="color:#FF5050">Identify</b>  risks that hamper faster, more successful application roll outs</li>	
+				    <li class="fragment"><b style="color:#6EC300">Design</b>  feedback loops that are fast, early and actionable</li>	
+				    <li class="fragment"><b style="color:#6EC300">Implement</b>  automated tools throughout the software lifecycle to establish those feedback loops</li>
+				  </ul>
+				</section>				
+				<section>
+				  <h2>Principles</h2>
+				  <ul >
+				    <li class="fragment"><em>Iterative:</em> iterating toward a goal is a primary aspect of its design</li>
+				    <li class="fragment"><em>Continuous:</em> continuously optimizing implies that you are never "done"</li>
+				    <li class="fragment"><em>Collaborative:</em> What is required is agreement on the mission and the metrics</li>
+				    <li class="fragment"><em>Systemic:</em> to remove as many constraints as possible within the IT service delivery function</li>
+				    <li class="fragment"><em>Automated:</em> the technology framework must be designed for "human by exception," where as much work as possible is performed by programmatic means</li>
+				  </ul>
+				</section>				
+				<section>
+				  <h2>Benefits: Speed</h2>
+				   <img src="images/image2017-2-22-velocity.jpg" style="float:right" width="85%"/>
+				  <ul style="width:70%">
+				    <li class="fragment">More frequent deployments</li>
+				    <li class="fragment">Faster deployments</li>
+				    <li class="fragment">Lesser time for builds to go through the QA/UAT cycle</li>
+				  </ul>
+				</section>
+				<section>
+				  <h2>Benefits: Efficiency</h2>
+				   <img src="images/image2017-2-22-efficiency.jpg" style="float:right" width="85%"/>
+				  <ul style="width:70%">
+				    <li class="fragment">Eliminates waste and rework</li>
+				    <li class="fragment">Lower Lead time and MTTR</li>
+				    <li class="fragment">Enables the same team to complete more work</li>
+				  </ul>
+				</section>
+				<section>
+				  <h2>Benefits: Quality</h2>
+				   <img src="images/image2017-2-22-quality.jpg" style="float:right" width="85%"/>
+				  <ul style="width:70%">
+				    <li class="fragment">Improved Deployment success rate</li>
+				    <li class="fragment">Lower Incident/Defect volumes</li>
+				    <li class="fragment">Improved Availability and Response Time</li>
+				  </ul>
+				</section>
+				<section>
+				  <h2>Tooling (Java)</h2>
+				  <img src="images/devops-infographics.jpg" width="57%"/>
+				</section>
+				<section>
+				  <h2>Tooling (IBM)</h2>
+				  <img src="https://image.slidesharecdn.com/cdo1884-devopsreviewroadmapfinal-130326091654-phpapp01/95/les-outils-de-devops-ibm-17-638.jpg?cb=1364393156" width="77%"/>
+				</section>									
+						
+				<section>
+				  <img src="images/ThankYou.png" width="107%"/>
+				</section>						
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
