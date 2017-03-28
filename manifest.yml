@@ -1,0 +1,10 @@
+---
+applications:
+- name: lbg-devops
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  host: sn-lbg-devops
+  space: DEV
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git  
+  command: npm start
