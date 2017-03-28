@@ -11,10 +11,5 @@ pipelines:
         script: # Modify the commands below to build your repository.
           - npm install
           - npm test
-          - wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | apt-key add -
-          - apt-get update && apt-get install cf-cli
-          - cf --version
-          - cf api https://api.ng.bluemix.net/
-          - cf login -a https://api.ng.bluemix.net -u snair@sapient.com -o snair -s DEV -p Passme!@3
-          - cf push lbg-devops
+
           
