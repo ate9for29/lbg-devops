@@ -6,4 +6,5 @@ applications:
   domain: mybluemix.net
   host: sn-lbg-devops
   space: DEV
+  buildpack: sdk-for-nodejs_v3_10-20170119-1146
   command: npm start
